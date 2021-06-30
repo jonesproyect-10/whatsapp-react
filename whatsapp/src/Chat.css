@@ -1,0 +1,106 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.chat__headerInfo{
+flex:1;
+padding-left: 20px;
+
+}
+
+
+.chat__headerInfo>h2{
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+
+
+.chat__headerInfo>p{
+color: gray;
+}
+
+.chat__headerRight{
+display: flex;
+justify-content: space-between;
+min-width: 100px;
+}
+
+.chat__body{
+    flex:1;
+    background-image: url(
+        "https://st3.depositphotos.com/10953546/14866/v/1600/depositphotos_148660113-stock-illustration-technology-social-media-network-link.jpg"
+    );
+    overflow: scroll;
+    background-position: center;
+    padding: 30px;
+    background-repeat: repeat;
+    
+}
+.chat__message{
+    position: relative;
+    background-color: #ffffff;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chat__reciever{
+    margin-left: auto;
+    background-color: #dcf8cd;
+}
+
+.chat__timestamp{
+font-size: xx-small;
+margin-left: 10px;  
+}
+
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+
+.chat__footer>form{
+    display: flex;
+    flex:1;
+
+}
+
+.chat__footer>form>input{
+    flex:1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+
+}
+
+
+.chat__footer>.MuiSvgIcon-root{
+    padding:10px;
+    color: gray;
+
+}
